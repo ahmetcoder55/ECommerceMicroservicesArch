@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/ApiGateways/" />
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Order/" />
+  <Folder Name="/Services/Product/">
+    <Project Path="Product.API/Product.API.csproj" />
+    <Project Path="Product.Business/Product.Business.csproj" />
+    <Project Path="Product.DataAccess/Product.DataAccess.csproj" />
+    <Project Path="Product.Entities/Product.Entities.csproj" />
+  </Folder>
+</Solution>

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Concrete\Extensions\" />
-    <Folder Include="Concrete\UnitOfWorks\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -7,7 +7,7 @@ namespace Product.DataAccess.Abstract.UnitOfWorks
 {
     public interface IRepositoryManager:IAsyncDisposable
     {
-        public IProductRepository Product { get; set; }
+        public IProductRepository Product { get;}
 
         Task<int> SaveAsync();
     }

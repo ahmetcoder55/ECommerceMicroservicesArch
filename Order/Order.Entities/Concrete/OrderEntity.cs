@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Order.Entities.Concrete
 {
-    public class Order:IEntity
+    public class OrderEntity:IEntity
     {
         [Key]
         public int Id { get; set; }

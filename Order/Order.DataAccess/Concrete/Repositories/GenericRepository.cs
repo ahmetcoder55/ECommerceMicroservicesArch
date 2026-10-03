@@ -1,12 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Order.DataAccess.Abstract;
+using Order.DataAccess.Abstract.Repositories;
 using Order.Entities.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Order.DataAccess.Concrete
+namespace Order.DataAccess.Concrete.Repositories
 {
     public class GenericRepository<TEntity,TContext>:IGenericRepository<TEntity> where TEntity:class,IEntity
     where TContext:DbContext

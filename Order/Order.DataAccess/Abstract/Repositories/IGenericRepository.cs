@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Text;
 
-namespace Order.DataAccess.Abstract
+namespace Order.DataAccess.Abstract.Repositories
 {
     public interface IGenericRepository<T> where T:class,IEntity
     {

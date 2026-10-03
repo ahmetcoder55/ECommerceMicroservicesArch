@@ -1,7 +1,12 @@
 <Solution>
   <Folder Name="/ApiGateways/" />
   <Folder Name="/Services/" />
-  <Folder Name="/Services/Order/" />
+  <Folder Name="/Services/Order/">
+    <Project Path="Order/Order.API/Order.API.csproj" Id="da5f25b8-fdd6-4474-bbf0-89449f1b626e" />
+    <Project Path="Order/Order.Business/Order.Business.csproj" Id="d4a139e5-b090-4d99-b391-3cec51375f84" />
+    <Project Path="Order/Order.DataAccess/Order.DataAccess.csproj" Id="77a094cd-558e-44b4-b3ec-832d7ddb4f1d" />
+    <Project Path="Order/Order.Entities/Order.Entities.csproj" Id="185db9d8-5e5d-4905-84f6-c23d07d4c65e" />
+  </Folder>
   <Folder Name="/Services/Product/">
     <Project Path="Product.API/Product.API.csproj" />
     <Project Path="Product.Business/Product.Business.csproj" />

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Product.Business.Concrete.DTOs;
+using Product.Business.Concrete.Features.Products.Commands;
 using Product.Entities.Concrete;
 using System;
 using System.Collections.Generic;
